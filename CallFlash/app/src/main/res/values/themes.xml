@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CallFlash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/tools_theme</item>
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="android:textColorSecondary">@color/textSecondary</item>
+        <item name="android:textColorTertiary">@color/textTertiary</item>
+        <item name="android:windowBackground">@color/backgroundLight</item>
+        <item name="android:colorBackground">#EDECED</item>
+        <item name="android:statusBarColor">@color/backgroundLight</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/backgroundLight</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+        <item name="colorControlActivated">@color/tools_theme</item>
+        <item name="colorControlNormal">#D5D5D5</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">#1ADF825F</item>
+        <item name="colorOnPrimary">@color/textPrimaryDark</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/textSecondaryDark</item>
+        <!-- Tertiary brand color. -->
+        <item name="colorTertiary">@color/colorTertiary</item>
+        <item name="colorOnTertiary">@color/textTertiaryDark</item>
+    </style>
+</resources>
